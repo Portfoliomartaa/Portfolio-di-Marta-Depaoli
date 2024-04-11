@@ -1,0 +1,211 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+p {
+    font-family: 'Archivo', sans-serif;
+    font-size: 150%;
+    color: black;
+}
+
+.tit-intro {
+    position: relative;
+    padding: 5px;
+    font-family: 'Rowdies Bold';
+    font-size: 500%;
+    color: black;
+}
+
+h1 {
+    position: relative;
+    padding: 5px;
+    font-family: 'Rowdies Regular';
+    font-size: 400%;
+    color: black;
+}
+
+h3 {
+    position: relative;
+    padding: 3px;
+    font-family: 'Rowdies Bold';
+    font-size: 200%;
+    color: black;
+}
+
+h4 {
+    display: flex;
+    position: relative;
+    padding: 3px;
+    font-family: 'Archivo', sans-serif;
+    font-size: 75%;
+    color: black;
+}
+
+.caption {
+    font-family: 'Archivo', sans-serif;
+    color: white;
+    font-size: 200%;
+}
+
+#boxcontatti {
+    font-family: 'Archivo-SemiBold', sans-serif;
+    font-size: 100%;
+    color: black; 
+}
+
+.btn-mio {
+    background-color:black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+
+.tbottoni {
+    font-family: 'Archivo', sans-serif;
+    color: white;
+    font-size: 16px;
+    position: relative;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.tsezioni {
+    position: relative;
+    font-family: 'Rowdies Bold';
+    font-size: 200%;
+    color: black;
+}
+
+.sfondo {
+    display: inline;
+    width: 80%;
+    padding: 5%;
+    background-color: rgb(188, 188, 188);
+    position: relative;
+    text-align: center;
+    margin: 10%;
+}
+
+.sfondoquar {
+    display: inline;
+    width: 80%;
+    padding: 5%;
+    background-color: rgb(188, 188, 188);
+    position: relative;
+    text-align: left;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.sfondoter {
+    display: inline;
+    width: 80%;
+    padding: 5%;
+    background-color: rgb(188, 188, 188);
+    position: relative;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.sfondosec {
+    display: inline;
+    width: 80%;
+    padding: 5%;
+    background-color: rgb(188, 188, 188);
+    position: relative;
+    text-align: left;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.sfondo-con-flex {
+    display: flex;
+    width: 80%;
+    padding: 5%;
+    background-color: rgb(188, 188, 188);
+    position: relative;
+    text-align: left;
+    margin: 10%;
+}
+
+.sfondosec-con-flex  {
+    display: flex;
+    width: 80%;
+    padding: 5%;
+    background-color: rgb(188, 188, 188);
+    position: relative;
+    text-align: left;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.titoli-sezioni {
+    width: 100%;
+    height: 200px;
+    background-size: 100% 100%;
+    padding: 4%;
+    text-align: center;
+    z-index: -1;
+  }
+
+#titoli-sezioni {
+    font-family: 'Rowdies Bold';
+    position: relative;
+    font-size: 400%;
+    padding: 5px;
+    color: black;
+}
+
+#intro {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.col-5-mio {
+    margin-top: 2%;
+    margin-right: 10%;
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+
+.flex {
+    display: flex;
+}
+.flex-port {
+    display: flex;
+    align-items: center;
+}
+
+/* qua sotto troviamo i font diversi*/
+
+.rowdies-light {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .rowdies-regular {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .rowdies-bold {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  

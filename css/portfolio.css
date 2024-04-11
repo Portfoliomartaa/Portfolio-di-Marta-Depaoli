@@ -1,0 +1,41 @@
+:root {
+    --img-width: 100%;
+} 
+
+.descrizioni {
+    font-family: 'Archivo', sans-serif;
+    color: #EFF6E0;
+    font-size: 150%;
+}
+
+.descrizioni-due {
+    font-family: 'Archivo', sans-serif;
+    color: #EFF6E0;
+    font-size: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+#foto-port {
+    max-width: var(--img-width);
+    max-height: var(--img-width);
+    margin: 5%;
+}
+
+#video-port {
+    max-width: var(--img-width);
+    max-height: var(--img-width);
+}
+
+.avviso {
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    color: #EFF6E0;
+    font-size: 300%;
+    background-color: #01161E;
+    padding: 10%;
+    border-radius: 9999px;
+}
